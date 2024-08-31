@@ -1,2 +1,2 @@
 # SEM-7---Deep-learning-project
-# This is repo is of Team 20
+# This repo belongs to Team 20
