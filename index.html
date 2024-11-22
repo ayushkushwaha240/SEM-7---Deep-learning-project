@@ -61,7 +61,7 @@
     </style>
 </head>
 <body>
-    <h1>Plant Health Classifier</h1>
+    <h1>Story Generator</h1>
     <form id="uploadForm" enctype="multipart/form-data">
         <input type="file" id="imageInput" accept="image/*" required>
         <button type="submit">Answer</button>
@@ -85,7 +85,7 @@
             formData.append('file', file);  // Append the file to the form data
 
             try {
-                const response = await fetch('https://ayushkush2402-ftresnet50.hf.space/predict/image', {
+                const response = await fetch('https://ayushkush2402-dl-project.hf.space/generate_story/', {
                     method: 'POST',
                     body: formData,  // Send the form data with the file to the backend
                 });
