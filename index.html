@@ -85,7 +85,7 @@
             formData.append('file', file);  // Append the file to the form data
 
             try {
-                const response = await fetch('https://ayushkush2402-dl-project.hf.space/generate_story', {
+                const response = await fetch('https://ayushkush2402-dl-project.hf.space/generate_story/', {
                     method: 'POST',
                     body: formData,  // Send the form data with the file to the backend
                 });
