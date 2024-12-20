@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Image Hover Text Generator",
+    "version": "1.0",
+    "description": "Generate captions or stories for images on hover.",
+    "permissions": ["activeTab", "scripting"],
+    "host_permissions": ["<all_urls>"],
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content_script.js"]
+      }
+    ]
+  }
+  
